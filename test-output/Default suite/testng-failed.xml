@@ -7,10 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testCase2"/>
-          <include name="testCase3"/>
           <include name="testCase4"/>
-          <include name="testCase5"/>
         </methods>
       </class> <!-- com.Olympics -->
     </classes>
