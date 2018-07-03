@@ -147,6 +147,7 @@ public class Olympics {
 				lstStr.add(each.getText());
 			}
 			List<String> lstStrCopy = new ArrayList<>(lstStr);
+			Collections.sort(lstStr);
 			return lstStr.equals(lstStrCopy);
 		}
 	}
@@ -189,7 +190,7 @@ public class Olympics {
 	}
 
 	
-	// Method returns Map from given two lists (lst1 items as key, lst2 items as value
+	// Method returns Map from given two lists (lst1 items as key, lst2 items as value)
 	public Map<String, Integer> getMap(List<WebElement> lst1, List<WebElement> lst2) {
 		Map<String, Integer> map = new HashMap<>();
 		for (int i = 0; i < lst1.size(); i++) {
